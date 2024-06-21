@@ -5,7 +5,7 @@
  Delete this file and get started with your project!
  * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  */
-export function NxWelcome({ title }: { title: string }) {
+export function NxWelcome({ title }: { title: string; }) {
   return (
     <>
       <style
@@ -464,7 +464,7 @@ export function NxWelcome({ title }: { title: string }) {
             </div>
           </div>
 
-          <div id="middle-content">
+          <div id="middle-content" className="w-[1000px]">
             <div id="learning-materials" className="rounded shadow">
               <h2>Learning materials</h2>
               <a
