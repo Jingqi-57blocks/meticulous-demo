@@ -428,9 +428,8 @@ export function NxWelcome({ title }: { title: string; }) {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome {title} 👋
+              Welcome {title} JingQi
             </h1>
-            <p className="stroke-orange-300">Test line</p>
           </div>
 
           <div id="hero" className="rounded">
