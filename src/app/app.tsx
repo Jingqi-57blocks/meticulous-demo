@@ -6,7 +6,7 @@ import NxWelcome from './nx-welcome';
 export function App() {
   return (
     <div>
-      <NxWelcome title="meticulous" />
+      <NxWelcome title="meticulous ver1.1" />
     </div>
   );
 }
